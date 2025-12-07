@@ -399,9 +399,9 @@ print(llm_with_tools.kwargs['tools'])
 
 If issues persist:
 
-1. Check the main documentation: `@CLAUDE.md`
-2. Review setup instructions: `@SETUP.md`
-3. Check usage examples: `@USAGE.md`
+1. Check the main documentation: `../CLAUDE.md`
+2. Review setup instructions: `SETUP.md`
+3. Check usage examples: `USAGE.md`
 4. Review LangChain documentation: https://python.langchain.com/
 5. Check Ollama documentation: https://ollama.ai/docs
 6. Search for similar issues in project commit history

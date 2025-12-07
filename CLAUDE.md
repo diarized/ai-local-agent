@@ -24,11 +24,16 @@ AI agent experimentation environment using LangChain 1.0+ with Ollama for local 
 │   ├── local_agent.py      # General-purpose agent with web search, file ops, shell commands
 │   └── log_analyzer.py     # Security log analysis agent with remote log fetching
 ├── docs/
-│   └── AI_VS_FAILBAN_COMPARISON.md  # Technical comparison document
+│   ├── AI_VS_FAILBAN_COMPARISON.md  # Technical comparison document
+│   ├── SETUP.md                     # Installation and environment setup
+│   ├── USAGE.md                     # Detailed usage examples and tool documentation
+│   ├── TROUBLESHOOTING.md           # Common issues and solutions
+│   ├── SECURITY_FIXES.md            # Security vulnerability fixes
+│   ├── SHELL_BLACKLISTING.md        # Command blacklist implementation
+│   └── VERIFICATION_REPORT.md       # Verification reports
 ├── venv/                   # Python virtual environment
-├── @SETUP.md               # Installation and environment setup
-├── @USAGE.md               # Detailed usage examples and tool documentation
-└── @TROUBLESHOOTING.md     # Common issues and solutions
+├── CLAUDE.md               # Project documentation for Claude Code
+└── README.md               # Main project README
 ```
 
 ## Key Concepts and Terminology
@@ -173,7 +178,7 @@ result = web_search.invoke({"query": "test query"})
 ## Common Tasks
 
 ### Running Agents
-See `@USAGE.md` for detailed examples.
+See `docs/USAGE.md` for detailed examples.
 
 **General agent:**
 ```bash
@@ -200,14 +205,14 @@ python src/log_analyzer.py
 
 ## Setup and Dependencies
 
-See `@SETUP.md` for:
+See `docs/SETUP.md` for:
 - Virtual environment setup
 - Required dependencies
 - Ollama installation and model setup
 
 ## Troubleshooting
 
-See `@TROUBLESHOOTING.md` for common issues and solutions.
+See `docs/TROUBLESHOOTING.md` for common issues and solutions.
 
 ## Version Information
 

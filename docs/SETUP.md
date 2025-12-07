@@ -182,4 +182,4 @@ export OLLAMA_MAX_LOADED_MODELS=1
 
 ## Next Steps
 
-Once setup is complete, see `@USAGE.md` for detailed usage examples and tool documentation.
+Once setup is complete, see `USAGE.md` for detailed usage examples and tool documentation.
